@@ -1,0 +1,44 @@
+body {
+  background-color: #F1F2DF;
+}
+
+
+img {
+  width: 100%;
+}
+
+a {
+
+  img {
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: 0.8;
+    }
+  }
+}
+
+.logo {
+  width: 200px;
+}
+
+.teaser {
+  padding: 1em;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+.hero {
+  background-image: url('../assets/images/clara.jpg');
+  background-size: cover;
+  min-height: 20em;
+  background-position: center;
+  margin-bottom: 2em;
+
+  @media (min-width: $screen-sm-min) {
+    min-height: 40em;
+  }
+}
