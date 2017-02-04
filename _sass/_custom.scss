@@ -1,5 +1,5 @@
 body {
-  background-color: #F1F2DF;
+  background-color: #FCF9F0;
 }
 
 
@@ -21,7 +21,8 @@ a {
 }
 
 .logo {
-  width: 200px;
+  width: 250px;
+  margin-bottom: 1.2em;
 }
 
 .teaser {
@@ -34,11 +35,43 @@ a {
 .hero {
   background-image: url('../assets/images/clara.jpg');
   background-size: cover;
+  background-position: center center;
   min-height: 20em;
-  background-position: center;
   margin-bottom: 2em;
 
   @media (min-width: $screen-sm-min) {
     min-height: 40em;
+  }
+}
+
+.header-nav {
+  margin-bottom: 0px;
+  padding: 1em 0;
+
+  &_item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+
+  &_link {
+    padding: 1em;
+    text-decoration: none;
+    color: #568644;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: none;
+    transition: background-color 0.3s ease;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+      background-color: #568644;
+      color: white;
+    }
   }
 }
