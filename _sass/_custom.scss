@@ -2,26 +2,13 @@ img {
   max-width: 100%;
 }
 
-a {
-
-   img {
-     transition: opacity 0.2s ease-in-out;
-
-     &:hover,
-     &:focus,
-     &:active {
-       opacity: 0.8;
-     }
-   }
- }
-
 .logo {
   max-width: 250px;
   margin: 2em;
 }
 
 .teaser {
-  padding: 0.5em 0.5em 1em 0.5em;
+  padding: 0 0 1em 0;
   background-color: $green-lighter;
   margin-bottom: 2em;
   text-align: center;
@@ -36,7 +23,7 @@ a {
 }
 
 .hero {
-  background-image: url('../assets/images/clara.jpg');
+  background-image: url('../assets/images/hero.jpg');
   background-size: cover;
   background-position: center center;
   min-height: 20em;
@@ -52,7 +39,7 @@ a {
 
 .header-nav {
   margin-bottom: 0px;
-  padding: 0.6em 0 0.5em;
+  padding: 0.75em;
   overflow: hidden;
 
 
@@ -85,7 +72,7 @@ a {
 
     @media (min-width: $screen-sm-min) {
       font-size: 14px;
-      padding: 0.8em;
+      padding: 0.8em 1em;
     }
   }
 }
@@ -120,6 +107,18 @@ a {
       margin-left: 10px;
     }
   }
+}
 
+.flower {
+  height: 130px;
+  width: auto;
+  margin-top: 0.8em;
+  margin-bottom: 1.5em;
+}
 
+.image-page {
+
+  @media (min-width: $screen-sm-min) {
+    margin-top: 2em;
+  }
 }

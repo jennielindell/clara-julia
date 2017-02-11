@@ -10,3 +10,17 @@
   color: white;
   font-size: 4em;
 }
+
+.header-page {
+  margin-top: 1em;
+}
+
+.page-body {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+
+  @media (min-width: $screen-sm-min) {
+    font-size: 18px;
+  }
+}

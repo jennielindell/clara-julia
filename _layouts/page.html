@@ -3,13 +3,16 @@ layout: global
 ---
 
 <div class="container">
+  <div class="row text-center">
+    <div class="col-sm-12 col-md-10 col-md-offset-1">
+      <img class="image-page" src="{{site.baseurl}}/assets/images/{{page.image}}.jpg">
+      <h1 class="header-page">{{page.title}}</h1>
+      <img class="flower" src="{{site.baseurl}}/assets/images/{{page.flower}}.svg">
+    </div>
+  </div>
   <div class="row">
-    <div class="col-sm-12 col-md-6 col-md-offset-3 text-center">
-      <div class="page-intro">
-        <h1>{{page.title}}</h1>
-        <h2>{{page.lead}}</h2>
-        <p>{{content}}</p>
-      </div>
+    <div class="col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
+      <p class="page-body">{{content}}</p>
     </div>
   </div>
 </div>
