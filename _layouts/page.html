@@ -5,7 +5,9 @@ layout: global
 <div class="container">
   <div class="row text-center">
     <div class="col-sm-12 col-md-10 col-md-offset-1">
-      <img class="image-page" src="{{site.baseurl}}/assets/images/{{page.image}}.jpg">
+      {% if page.image %}
+        {% include content/page-image.html %}
+      {% endif %}
       <h1 class="header-page">{{page.title}}</h1>
       <img class="flower" src="{{site.baseurl}}/assets/images/{{page.flower}}.svg">
     </div>

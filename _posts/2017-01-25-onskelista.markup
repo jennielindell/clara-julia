@@ -1,9 +1,19 @@
 ---
-title: Bra att veta
+title: Vår önskelista
 permalink: "/onskelista/"
 layout: page
 image:
 date:   2017-01-22 14:36:42 +0100
 lead:   "Clara och Julias önskelista"
+flower: ramslok
 ---
-Önskelista
+För oss är den bästa gåva av allt att ni kommer! Men vi vet att några av er ändå väldigt gärna skulle vilja ge något.
+
+<h3>Saker vi tycker är fina</h3>
+<ul>
+  <li>Att du kommer på vårt bröllop!</li>
+  <li>En pläd</li>
+  <li>lista</li>
+  <li>lista</li>
+  <li>lista</li>
+</ul>
