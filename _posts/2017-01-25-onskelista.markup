@@ -8,11 +8,10 @@ lead:   "Clara och Julias önskelista"
 flower: ramslok
 ---
 Vi förväntar oss inga presenter, att du vill komma och fira vår stora dag är mer än nog! Vill du ändå ge någonting finns här en önskelista.
-
-<h3>Saker vi tycker är fina</h3>
-<ul>
-  <li>Pläd</li>
-  <li>Bidrag till bröllopsresa</li>
-  <li>Färgglada uppläggningsfat i olika storlek</li>
-  <li>Skänka pengar till organisationer</li>
+<br>
+<ul class="onskelista">
+  <li class="onskelista_item">Pläd</li>
+  <li class="onskelista_item">Bidrag till bröllopsresa</li>
+  <li class="onskelista_item">Färgglada uppläggningsfat i olika storlek</li>
+  <li class="onskelista_item">Skänka pengar till organisationer</li>
 </ul>

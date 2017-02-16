@@ -31,3 +31,12 @@
     font-size: 18px;
   }
 }
+
+.onskelista {
+  font-size: 18px;
+  font-weight: 300;
+
+  &_item {
+    margin-bottom: 0.5em;
+  }
+}
