@@ -32,11 +32,11 @@
   }
 }
 
-.onskelista {
-  font-size: 18px;
-  font-weight: 300;
+.onskelista, ul {
+  font-size: 18px !important;
+  font-weight: 300 !important;
 
-  &_item {
-    margin-bottom: 0.5em;
+  &_item, li {
+    margin-bottom: 0.5em !important;
   }
 }
