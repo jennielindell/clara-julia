@@ -28,6 +28,11 @@ img {
   background-position: center center;
   min-height: 20em;
 
+  &_byline {
+      color: white;
+      bottom: 1em;
+  }
+
   @media (min-width: $screen-sm-min) {
     min-height: 40em;
   }
@@ -133,17 +138,31 @@ img {
 }
 
 .hashtag {
-    background-color: $pink;
+    background-color: #6e5224;
     margin-top: 2em;
     position: absolute;
     width: 100%;
 
     &_content {
-        color: $purple-dark;
-        padding: 1em 0 2em;
+        padding: 1em 0 1em;
+    }
+
+    &_link {
+        color: $cream-light;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+
+        &:hover,
+        &:active {
+            color: $pink;
+        }
     }
 
     h1 {
         margin-bottom: 0;
     }
+}
+
+.quote-image {
+    margin-bottom: 1em;
 }

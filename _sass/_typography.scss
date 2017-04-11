@@ -27,9 +27,14 @@
   font-weight: 200;
   line-height: 1.5;
 
+  &.-quote {
+    font-style: italic;
+  }
+
   @media (min-width: $screen-sm-min) {
     font-size: 18px;
   }
+
 }
 
 .onskelista, ul {
